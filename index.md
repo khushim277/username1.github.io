@@ -1,25 +1,73 @@
----
-layout: default
-title: My GitHub Page
----
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Dreams ✨</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Poppins', sans-serif;
+      background: linear-gradient(to bottom, #0f2027, #203a43, #2c5364);
+      color: white;
+      text-align: center;
+    }
+    header {
+      padding: 4rem 1rem;
+    }
+    header h1 {
+      font-size: 3rem;
+      color: #fbc531;
+      text-shadow: 0 0 10px rgba(251, 197, 49, 0.8);
+    }
+    header p {
+      font-size: 1.2rem;
+      opacity: 0.9;
+    }
+    .dream-card {
+      background: rgba(255, 255, 255, 0.1);
+      border-radius: 20px;
+      padding: 2rem;
+      margin: 2rem auto;
+      width: 80%;
+      max-width: 600px;
+      box-shadow: 0 4px 15px rgba(0,0,0,0.3);
+    }
+    footer {
+      margin-top: 4rem;
+      padding: 1rem;
+      font-size: 0.9rem;
+      opacity: 0.7;
+    }
+    a {
+      color: #fbc531;
+      text-decoration: none;
+    }
+    a:hover {
+      text-decoration: underline;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Dreams ✨</h1>
+    <p>“The future belongs to those who believe in the beauty of their dreams.”</p>
+  </header>
 
-# Hello World
+  <section class="dream-card">
+    <h2>My Dream 🌙</h2>
+    <p>I dream of becoming a software engineer who builds tools that help people live better lives.</p>
+  </section>
 
-Welcome to my site!
+  <section class="dream-card">
+    <h2>Dream Journal 📓</h2>
+    <p>⭐ Flying through the clouds<br>
+       ⭐ Creating a game that millions of people play<br>
+       ⭐ Traveling the world while coding</p>
+  </section>
 
-This is my first page using the **Slate Jekyll theme** on GitHub Pages.
-
-You can add more content here using Markdown. For example:
-
-## About Me
-
-I’m learning how to make my GitHub Page look nicer using themes and Markdown.
-
-- Easy to edit
-- Looks great
-- Works with GitHub Pages automatically
-
-## Links
-
-[My GitHub](https://github.com/your-username)  
-[Another Page](another-page.md)
+  <footer>
+    Made with 💛 by Me · <a href="https://github.com/YOUR_USERNAME">GitHub</a>
+  </footer>
+</body>
+</html>
